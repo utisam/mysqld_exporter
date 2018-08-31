@@ -77,6 +77,7 @@ collect.perf_schema.file_instances                     | 5.5           | Collect
 collect.perf_schema.indexiowaits                       | 5.6           | Collect metrics from performance_schema.table_io_waits_summary_by_index_usage.
 collect.perf_schema.tableiowaits                       | 5.6           | Collect metrics from performance_schema.table_io_waits_summary_by_table.
 collect.perf_schema.tablelocks                         | 5.6           | Collect metrics from performance_schema.table_lock_waits_summary_by_table.
+collect.perf_schema.thread_by_user                     | 5.6           | Collect metrics from performance_schema.threads for each user.
 collect.perf_schema.replication_group_member_stats     | 5.7           | Collect metrics from performance_schema.replication_group_member_stats.
 collect.slave_status                                   | 5.1           | Collect from SHOW SLAVE STATUS (Enabled by default)
 collect.slave_hosts                                    | 5.1           | Collect from SHOW SLAVE HOSTS
